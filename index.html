@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
-    
+    <h2>MY FORM</h2>
+    <form action="">
+        <p>Name: <input type="text" name="name" id="" placeholder="Enter your name"></p>
+        <p>Name: <input type="text" name="email" id="" placeholder="Enter your email"></p>
+        <fieldset>
+            <legend>Select your Plant</legend>
+            <p><label for="aseptic"><input type="radio" name="plant" id="aseptic">Aseptic</label></p>
+            <p><label for="csd"><input type="radio" name="plant" id="csd">CSD</label></p>
+            <p><label for="dwp"><input type="radio" name="plant" id="dwp">DWP</label></p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Select Products</legend>
+            <p><label for="speed"><input type="checkbox" name="product" id="speed">Speed</label></p>
+            <p><label for="mojo"><input type="checkbox" name="product" id="mojo">Mojo</label></p>
+            <p><label for="clemon"><input type="checkbox" name="product" id="clemon">Clemon</label></p>
+            <p><label for="frutika"><input type="checkbox" name="product" id="frutika">Frurika</label></p>
+            <p><label for="aafi"><input type="checkbox" name="product" id="aafi">Aafi</label></p>
+        </fieldset>
+        <p>Note
+            <br>
+            <textarea name="note" id="" cols="30" rows="2"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+
 </body>
+
 </html>
